@@ -1,0 +1,42 @@
+"role","system","code","intended","official_description","in_fy2027","in_fy2026","rxcui","checked","tty"
+"population","ICD10CM","N40.0","benign prostatic hyperplasia without lower urinary tract symptoms","Benign prostatic hyperplasia without lower urinary tract symptoms",TRUE,TRUE,,TRUE,
+"population","ICD10CM","N40.1","benign prostatic hyperplasia with lower urinary tract symptoms","Benign prostatic hyperplasia with lower urinary tract symptoms",TRUE,TRUE,,TRUE,
+"population","ICD10CM","N40.2","nodular prostate without lower urinary tract symptoms","Nodular prostate without lower urinary tract symptoms",TRUE,TRUE,,TRUE,
+"population","ICD10CM","N40.3","nodular prostate with lower urinary tract symptoms","Nodular prostate with lower urinary tract symptoms",TRUE,TRUE,,TRUE,
+"exclusion","ICD10CM","C61","malignant neoplasm of prostate","Malignant neoplasm of prostate",TRUE,TRUE,,TRUE,
+"exclusion","ICD10CM","N31.9","neuromuscular dysfunction of bladder (neurogenic bladder)","Neuromuscular dysfunction of bladder, unspecified",TRUE,TRUE,,TRUE,
+"outcome_retention","ICD10CM","R33.8","other retention of urine","Other retention of urine",TRUE,TRUE,,TRUE,
+"outcome_retention","ICD10CM","R33.9","retention of urine","Retention of urine, unspecified",TRUE,TRUE,,TRUE,
+"outcome_hematuria","ICD10CM","R31.0","gross hematuria","Gross hematuria",TRUE,TRUE,,TRUE,
+"outcome_hematuria","ICD10CM","R31.9","hematuria","Hematuria, unspecified",TRUE,TRUE,,TRUE,
+"outcome_uti","ICD10CM","N39.0","urinary tract infection","Urinary tract infection, site not specified",TRUE,TRUE,,TRUE,
+"outcome_stricture","ICD10CM","N35.919","urethral stricture in a male","Unspecified urethral stricture, male, unspecified site",TRUE,TRUE,,TRUE,
+"outcome_sexual","ICD10CM","N52.9","male erectile dysfunction","Male erectile dysfunction, unspecified",TRUE,TRUE,,TRUE,
+"outcome_sexual","ICD10CM","N53.14","retrograde ejaculation","Retrograde ejaculation",TRUE,TRUE,,TRUE,
+"procedure_turp","ICD10PCS","0VT08ZZ","resection of prostate by transurethral endoscopy","Resection of Prostate, Via Natural or Artificial Opening Endoscopic",TRUE,TRUE,,TRUE,
+"procedure_turp","ICD10PCS","0VB08ZZ","partial excision of prostate by transurethral endoscopy","Excision of Prostate, Via Natural or Artificial Opening Endoscopic",TRUE,TRUE,,TRUE,
+"procedure_ablation","ICD10PCS","0V508ZZ","destruction of prostate tissue by transurethral endoscopy (laser vaporization or water vapor)","Destruction of Prostate, Via Natural or Artificial Opening Endoscopic",TRUE,TRUE,,TRUE,
+"procedure_ablation","ICD10PCS","0V507ZZ","destruction of prostate tissue through the urethra without endoscopy (microwave)","Destruction of Prostate, Via Natural or Artificial Opening",TRUE,TRUE,,TRUE,
+"procedure_open","ICD10PCS","0VT00ZZ","open resection of prostate","Resection of Prostate, Open Approach",TRUE,TRUE,,TRUE,
+"outcome_catheter","ICD10PCS","0T9B70Z","bladder drainage with a catheter through the urethra","Drainage of Bladder with Drainage Device, Via Natural or Artificial Opening",TRUE,TRUE,,TRUE,
+"procedure_turp","CPT","52601","transurethral resection of the prostate",,,,,FALSE,
+"retreatment","CPT","52630","transurethral resection of residual or regrown prostate tissue",,,,,FALSE,
+"procedure_incision","CPT","52450","transurethral incision of the prostate",,,,,FALSE,
+"procedure_laser","CPT","52647","laser coagulation of the prostate",,,,,FALSE,
+"procedure_laser","CPT","52648","laser vaporization of the prostate",,,,,FALSE,
+"procedure_laser","CPT","52649","laser enucleation of the prostate",,,,,FALSE,
+"procedure_lift","CPT","52441","prostatic urethral lift with one implant",,,,,FALSE,
+"procedure_lift","CPT","52442","each additional prostatic urethral lift implant",,,,,FALSE,
+"procedure_water_vapor","CPT","53854","transurethral water vapor thermal therapy of the prostate",,,,,FALSE,
+"procedure_microwave","CPT","53850","transurethral microwave thermotherapy of the prostate",,,,,FALSE,
+"procedure_rf","CPT","53852","transurethral radiofrequency thermotherapy of the prostate",,,,,FALSE,
+"outcome_catheter","CPT","51702","insertion of a simple indwelling bladder catheter",,,,,FALSE,
+"outcome_catheter","CPT","51703","insertion of a complicated indwelling bladder catheter",,,,,FALSE,
+"drug_alpha_blocker","RxNorm","tamsulosin","alpha blocker","tamsulosin",,,"77492",TRUE,"IN"
+"drug_alpha_blocker","RxNorm","alfuzosin","alpha blocker","alfuzosin",,,"17300",TRUE,"IN"
+"drug_alpha_blocker","RxNorm","silodosin","alpha blocker","silodosin",,,"720825",TRUE,"IN"
+"drug_alpha_blocker","RxNorm","doxazosin","alpha blocker","doxazosin",,,"49276",TRUE,"IN"
+"drug_alpha_blocker","RxNorm","terazosin","alpha blocker","terazosin",,,"37798",TRUE,"IN"
+"drug_5ari","RxNorm","finasteride","5-alpha reductase inhibitor","finasteride",,,"25025",TRUE,"IN"
+"drug_5ari","RxNorm","dutasteride","5-alpha reductase inhibitor","dutasteride",,,"228790",TRUE,"IN"
+"drug_pde5","RxNorm","tadalafil","phosphodiesterase-5 inhibitor","tadalafil",,,"358263",TRUE,"IN"

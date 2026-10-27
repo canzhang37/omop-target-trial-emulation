@@ -1,0 +1,42 @@
+role,system,code,intended
+population,ICD10CM,N40.0,benign prostatic hyperplasia without lower urinary tract symptoms
+population,ICD10CM,N40.1,benign prostatic hyperplasia with lower urinary tract symptoms
+population,ICD10CM,N40.2,nodular prostate without lower urinary tract symptoms
+population,ICD10CM,N40.3,nodular prostate with lower urinary tract symptoms
+exclusion,ICD10CM,C61,malignant neoplasm of prostate
+exclusion,ICD10CM,N31.9,neuromuscular dysfunction of bladder (neurogenic bladder)
+outcome_retention,ICD10CM,R33.8,other retention of urine
+outcome_retention,ICD10CM,R33.9,retention of urine
+outcome_hematuria,ICD10CM,R31.0,gross hematuria
+outcome_hematuria,ICD10CM,R31.9,hematuria
+outcome_uti,ICD10CM,N39.0,urinary tract infection
+outcome_stricture,ICD10CM,N35.919,urethral stricture in a male
+outcome_sexual,ICD10CM,N52.9,male erectile dysfunction
+outcome_sexual,ICD10CM,N53.14,retrograde ejaculation
+procedure_turp,ICD10PCS,0VT08ZZ,resection of prostate by transurethral endoscopy
+procedure_turp,ICD10PCS,0VB08ZZ,partial excision of prostate by transurethral endoscopy
+procedure_ablation,ICD10PCS,0V508ZZ,destruction of prostate tissue by transurethral endoscopy (laser vaporization or water vapor)
+procedure_ablation,ICD10PCS,0V507ZZ,destruction of prostate tissue through the urethra without endoscopy (microwave)
+procedure_open,ICD10PCS,0VT00ZZ,open resection of prostate
+outcome_catheter,ICD10PCS,0T9B70Z,bladder drainage with a catheter through the urethra
+procedure_turp,CPT,52601,transurethral resection of the prostate
+retreatment,CPT,52630,transurethral resection of residual or regrown prostate tissue
+procedure_incision,CPT,52450,transurethral incision of the prostate
+procedure_laser,CPT,52647,laser coagulation of the prostate
+procedure_laser,CPT,52648,laser vaporization of the prostate
+procedure_laser,CPT,52649,laser enucleation of the prostate
+procedure_lift,CPT,52441,prostatic urethral lift with one implant
+procedure_lift,CPT,52442,each additional prostatic urethral lift implant
+procedure_water_vapor,CPT,53854,transurethral water vapor thermal therapy of the prostate
+procedure_microwave,CPT,53850,transurethral microwave thermotherapy of the prostate
+procedure_rf,CPT,53852,transurethral radiofrequency thermotherapy of the prostate
+outcome_catheter,CPT,51702,insertion of a simple indwelling bladder catheter
+outcome_catheter,CPT,51703,insertion of a complicated indwelling bladder catheter
+drug_alpha_blocker,RxNorm,tamsulosin,alpha blocker
+drug_alpha_blocker,RxNorm,alfuzosin,alpha blocker
+drug_alpha_blocker,RxNorm,silodosin,alpha blocker
+drug_alpha_blocker,RxNorm,doxazosin,alpha blocker
+drug_alpha_blocker,RxNorm,terazosin,alpha blocker
+drug_5ari,RxNorm,finasteride,5-alpha reductase inhibitor
+drug_5ari,RxNorm,dutasteride,5-alpha reductase inhibitor
+drug_pde5,RxNorm,tadalafil,phosphodiesterase-5 inhibitor

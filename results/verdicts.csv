@@ -1,0 +1,8 @@
+"id","check","value","met"
+"P1","SQL vs dplyr: cohort, arms, dates, events","9 of 9 equal","TRUE"
+"P2","matched patients in equipoise (>= 50%)","94%","TRUE"
+"P3","max |SMD| after matching (< 0.1)","0.051","TRUE"
+"P4","negative control CIs excluding 1 (<= 10%)","0 of 9 controls had 5 events","not evaluable"
+"P5","primary HR below 1","0.78 (0.50-1.19)","TRUE"
+"P6","sensitivity 1 and 2 in the same direction","ITT 0.87, IPTW 1.02","FALSE"
+"P7","ICD-10 codes in FY2027 files, RxNorm ingredients in RxNav (100%)","20/20 ICD, 8/8 RxNorm","TRUE"

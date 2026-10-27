@@ -1,0 +1,20 @@
+"set","label","concept_name","status","patients","in_model"
+"history","osteoarthritis","Osteoarthritis","found",NA,FALSE
+"history","rheumatoid_arthritis","Rheumatoid arthritis","found",6,FALSE
+"history","hypertension","Essential hypertension","not in vocabulary",NA,FALSE
+"history","diabetes","Diabetes mellitus","not in vocabulary",NA,FALSE
+"history","ckd","Chronic kidney disease","not in vocabulary",NA,FALSE
+"history","coronary","Coronary arteriosclerosis","found",57,TRUE
+"history","heart_failure","Heart failure","not in vocabulary",NA,FALSE
+"history","atrial_fibrillation","Atrial fibrillation","found",NA,FALSE
+"history","peptic_ulcer","Peptic ulcer","found",790,TRUE
+"drug365","warfarin","Warfarin","found",NA,FALSE
+"drug365","aspirin","Aspirin","found",8,FALSE
+"drug365","clopidogrel","clopidogrel","found",8,FALSE
+"drug365","prednisone","Prednisone","found",1,FALSE
+"drug365","apixaban","apixaban","not in vocabulary",NA,FALSE
+"drug365","rivaroxaban","rivaroxaban","not in vocabulary",NA,FALSE
+"drug365","omeprazole","omeprazole","not in vocabulary",NA,FALSE
+"drug365","pantoprazole","pantoprazole","not in vocabulary",NA,FALSE
+"drug365","sertraline","sertraline","not in vocabulary",NA,FALSE
+"drug365","fluoxetine","fluoxetine","not in vocabulary",NA,FALSE

@@ -1,0 +1,10 @@
+"check","sql","dplyr","equal"
+"patients",2630,2630,TRUE
+"same person_ids",NA,NA,TRUE
+"arm",NA,NA,TRUE
+"index_date",NA,NA,TRUE
+"outcome_date",NA,NA,TRUE
+"ot_end",NA,NA,TRUE
+"itt_end",NA,NA,TRUE
+"ot_event",NA,NA,TRUE
+"itt_event",NA,NA,TRUE

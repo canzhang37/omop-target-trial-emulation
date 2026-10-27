@@ -1,0 +1,33 @@
+set,role,label,concept_name,domain,class
+exposure,target,celecoxib,celecoxib,Drug,Ingredient
+exposure,comparator,diclofenac,diclofenac,Drug,Ingredient
+outcome,outcome,gi_hemorrhage,Gastrointestinal hemorrhage,Condition,
+history,covariate,osteoarthritis,Osteoarthritis,Condition,
+history,covariate,rheumatoid_arthritis,Rheumatoid arthritis,Condition,
+history,covariate,hypertension,Essential hypertension,Condition,
+history,covariate,diabetes,Diabetes mellitus,Condition,
+history,covariate,ckd,Chronic kidney disease,Condition,
+history,covariate,coronary,Coronary arteriosclerosis,Condition,
+history,covariate,heart_failure,Heart failure,Condition,
+history,covariate,atrial_fibrillation,Atrial fibrillation,Condition,
+history,covariate,peptic_ulcer,Peptic ulcer,Condition,
+drug365,covariate,warfarin,Warfarin,Drug,Ingredient
+drug365,covariate,aspirin,Aspirin,Drug,Ingredient
+drug365,covariate,clopidogrel,clopidogrel,Drug,Ingredient
+drug365,covariate,prednisone,Prednisone,Drug,Ingredient
+drug365,covariate,apixaban,apixaban,Drug,Ingredient
+drug365,covariate,rivaroxaban,rivaroxaban,Drug,Ingredient
+drug365,covariate,omeprazole,omeprazole,Drug,Ingredient
+drug365,covariate,pantoprazole,pantoprazole,Drug,Ingredient
+drug365,covariate,sertraline,sertraline,Drug,Ingredient
+drug365,covariate,fluoxetine,fluoxetine,Drug,Ingredient
+negative_control,outcome,viral_sinusitis,Viral sinusitis,Condition,
+negative_control,outcome,acute_viral_pharyngitis,Acute viral pharyngitis,Condition,
+negative_control,outcome,acute_bronchitis,Acute bronchitis,Condition,
+negative_control,outcome,otitis_media,Otitis media,Condition,
+negative_control,outcome,strep_throat,Streptococcal sore throat,Condition,
+negative_control,outcome,sinusitis,Sinusitis,Condition,
+negative_control,outcome,chronic_sinusitis,Chronic sinusitis,Condition,
+negative_control,outcome,acute_bacterial_sinusitis,Acute bacterial sinusitis,Condition,
+negative_control,outcome,cystitis,Cystitis,Condition,
+negative_control,outcome,gingivitis,Gingivitis,Condition,

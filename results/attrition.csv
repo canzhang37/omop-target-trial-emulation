@@ -1,0 +1,7 @@
+"step","criterion","n","celecoxib","diclofenac"
+1,"first exposure to either drug",2694,1844,850
+2,"age 18 or older at index",2694,1844,850
+3,"365 days of observation before index",2630,1800,830
+4,"no earlier exposure to either drug",2630,1800,830
+5,"no GI hemorrhage on or before index",2630,1800,830
+6,"did not start both drugs on the same day",2630,1800,830

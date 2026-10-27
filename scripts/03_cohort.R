@@ -1,0 +1,21 @@
+# cohort, outcomes and covariates in SQL
+source("R/db.R")
+con <- cdm()
+run_sql(con, "sql/cohort.sql")
+run_sql(con, "sql/covariates.sql")
+
+dir.create("results", showWarnings = FALSE)
+dir.create("data/derived", showWarnings = FALSE)
+att <- dbGetQuery(con, "SELECT * FROM attrition ORDER BY step")
+write.csv(att, "results/attrition.csv", row.names = FALSE)
+print(att)
+
+coh <- dbGetQuery(con, "SELECT * FROM study_cohort ORDER BY person_id")
+saveRDS(coh, "data/derived/cohort_sql.rds")
+saveRDS(dbGetQuery(con, "SELECT * FROM cov_long"), "data/derived/cov_long.rds")
+saveRDS(dbGetQuery(con, "SELECT * FROM cov_visits"), "data/derived/cov_visits.rds")
+saveRDS(dbGetQuery(con, "SELECT * FROM cov_names"), "data/derived/cov_names.rds")
+saveRDS(dbGetQuery(con, "SELECT * FROM nc_outcome"), "data/derived/nc_outcome.rds")
+cat("follow-up days, on-treatment:\n"); print(summary(coh$ot_days))
+cat("follow-up days, ITT:\n"); print(summary(coh$itt_days))
+dbDisconnect(con, shutdown = TRUE)
